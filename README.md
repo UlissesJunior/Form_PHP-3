@@ -17,8 +17,7 @@ No PHP: O programa recebe o nome e senha do usuário, o mesmo deve apertar "logi
 <p>
   
 ## Exercício 3
-No HTML: Recebe um número da escolha do usuário. <p> 
-No PHP: Se o número informado for divisível por 2 e tenha resto 0, será emitida a mensagem "Par", caso contrário será emitida a mensagem "Ímpar".
+No PHP: O programa recebe o nome, idade, peso e altura do usuário e o direciona para uma 2º página com as mesmas perguntas. Depois de responder as 2 páginas, o usuário é direcionado para uma página de resultado onde compara os resultados com as seguintes requisições "quem tem a altura maior", "quem é mais velho" e "quem tem o peso maior".
 <p align="center">
 <img src="assets/img/ex3.png">
 <p>
@@ -27,8 +26,13 @@ No PHP: Se o número informado for divisível por 2 e tenha resto 0, será emiti
 <p>
   
 ## Exercício 4
-No HTML: Recebe o nome e senha do usuário. <p> 
-No PHP: Se o nome for "unesp" e a senha for "cotec", será emitida a mensagem "Seja bem vindo ao Sistema de Ativação", caso contrário será emitida a mensagem "Usuário ou Senha inválidos!!! Tente novamente!!!".
+No PHP: O programa recebe o nome do usuário e o direciona para uma página de quiz com 10 questões, após responder as 10 perguntas, o usuário recebe a mensagem "Parabéns 'Nome do usuário'! Quiz concluído", depois uma mensagem demonstrando o número de erros e acertos do participante.
 <p align="center">
-<img src="assets/img/index.png">
+<img src="assets/img/ex4.png">
+<p>
+<p align="center">
+<img src="assets/img/ex4_1.png">
+<p>
+<p align="center">
+<img src="assets/img/ex4_2.png">
 <p>
