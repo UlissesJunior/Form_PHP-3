@@ -20,7 +20,10 @@ No PHP: O programa recebe o nome e senha do usuário, o mesmo deve apertar "logi
 No HTML: Recebe um número da escolha do usuário. <p> 
 No PHP: Se o número informado for divisível por 2 e tenha resto 0, será emitida a mensagem "Par", caso contrário será emitida a mensagem "Ímpar".
 <p align="center">
-<img src="assets/img/index.png">
+<img src="assets/img/ex3_1.png">
+<p>
+<p align="center">
+<img src="assets/img/ex3_2.png">
 <p>
   
 ## Exercício 4
