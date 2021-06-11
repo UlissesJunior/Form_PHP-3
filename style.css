@@ -1,0 +1,336 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #eb0b;
+    margin: auto;
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1366px;
+    margin: auto;
+    background-color: #1B1B22;
+    padding: 30px; 
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.navbar {
+    display: flex;
+    text-align: center;
+}
+
+header a {
+    list-style: none;
+    text-decoration: none;
+    color: #FFF;
+}
+
+.nav-center li {
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.nav-center li:hover {
+    background-color: #0468BF;
+}
+
+.nav-right a:first-child {
+    margin-right: 34px;
+}
+
+button {
+    background-color: #0468BF;
+    color: #FFF;
+    width: 85px;
+    height: 33px;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/* Exercício 1 e 3 */
+
+.login1 {
+    min-height: 80vh;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.login1 h1 {
+    margin-bottom: 50px;
+}
+
+.login1 input {
+    padding: 8px 26px;
+    border: 2px solid #1B1B22;
+    background-color: #eb0b;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    outline: none;
+}
+
+.login1 button:first-child {
+    background-color: #eb0b;
+    border: 2px solid #1B1B22;
+    color: #1B1B22;
+    width: 109px;
+}
+
+.login1 button:last-child {
+    background-color: #1B1B22;
+    border: 2px solid #1B1B22;
+    color: #eb0b;
+    width: 109px;
+}
+.login1 button a {
+    color: #eb0b;
+    list-style: none;
+    text-decoration: none;
+}
+
+.login1 .page button {
+    background-color: #eb0b;
+    color: #1B1B22;
+    width: 54px;
+    margin-top: 15px;
+}
+
+.login1 .page button a  {
+    color: #1B1B22;
+}
+
+.login1 .page button.page-active  {
+    background-color: #1B1B22;
+    color: #eb0b;
+    width: 54px;
+    margin-top: 15px;
+}
+
+.login1 .page button.page-active a  {
+    color: #eb0b;
+}
+
+/* Exercício 2 */
+
+.container {
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center
+}
+
+.loginbox {
+    position: absolute;
+    width: 370px;
+    height: 450px;
+    background-color: #1B1B22;
+    border-radius: 8px;
+}
+
+.loginbox h2:first-child {
+    font-weight: 400;
+    position: absolute;
+    color: #FFF;
+    font-size: 16px;
+    margin: 43px 90px;
+}
+
+.loginbox .senha h2:first-child {
+    font-weight: 400;
+    position: absolute;
+    color: #FFF;
+    font-size: 16px;
+    margin: 144px 90px;
+}
+
+.usuario input{
+    position: absolute;
+    width: 190px;
+    height: 36px;
+    background: #C4C4C4;
+    border-radius: 10px;
+    margin: 81px 90px;
+    padding: 8px;
+    outline: none;
+}
+
+.senha input{
+    position: absolute;
+    width: 190px;
+    height: 36px;
+    background: #C4C4C4;
+    border-radius: 10px;
+    margin: 182px 90px;
+    padding: 8px;
+    outline: none;
+}
+
+.login {
+    margin: 268px 90px;
+    width: 190px;
+    height: 40px;
+}
+
+.social_media1 {
+    inset: 375px 90px;
+    position: absolute;
+}
+
+.social_media2 {
+    inset: 375px 170.42px;
+    position: absolute;
+}
+
+.social_media3 {
+    inset: 375px 250px;
+    position: absolute;
+}
+
+.or span {
+    inset: 331px 175px;
+    font-weight: 400;
+    position: absolute;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.or span::before{
+    position: absolute;
+    content: '';
+    width: 78px;
+    height: 1.5px;
+    margin-left: 28px;
+    background:#FFFFFF;
+    bottom: 50%;
+}
+
+.or span::after{
+    position: absolute;
+    content: '';
+    width: 76px;
+    height: 1.5px;
+    right: 6px;
+    margin-right: 28px;
+    background:#FFFFFF;
+    bottom: 50%;
+} 
+
+/* Exercício 4 */
+
+.wrapper {
+    display: inline-flex;
+    background: #fff;
+    height: 100px;
+    width: 600px;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 5px;
+    padding: 20px 15px;
+    box-shadow: 5px 5px 30px rgba(0,0,0,0.2);
+    margin-bottom: 20px;
+}
+
+.wrapper:first-child {
+    display: grid;
+    position:initial;
+    background: #fff;
+    height: 300px;
+    width: 600px;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 20px 15px;
+  }
+
+.wrapper .option {
+    background: #fff;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 0 10px;
+    border: 2px solid #1B1B22;
+    transition: all 0.3s ease;
+}
+
+.wrapper .option .dot {
+    height: 20px;
+    width: 20px;
+    background: #d9d9d9;
+    border-radius: 50%;
+    position: relative;
+}
+
+.wrapper .option .dot::before {
+    position: absolute;
+    content: "";
+    top: 4px;
+    left: 4px;
+    width: 12px;
+    height: 12px;
+    background: #eb0b;
+    border-radius: 50%;
+    opacity: 0;
+    transform: scale(1.5);
+    transition: all 0.3s ease;
+}
+
+input[type="radio"] {
+    display: none;
+}
+
+#option-1:checked:checked ~ .option-1,
+#option-2:checked:checked ~ .option-2,
+#option-3:checked:checked ~ .option-3,
+#option-4:checked:checked ~ .option-4
+{
+    border-color: #eb0b;
+    background: #1B1B22;
+}
+#option-1:checked:checked ~ .option-1 .dot,
+#option-2:checked:checked ~ .option-2 .dot,
+#option-3:checked:checked ~ .option-3 .dot,
+#option-4:checked:checked ~ .option-4 .dot
+{
+    background: #fff;
+}
+#option-1:checked:checked ~ .option-1 .dot::before,
+#option-2:checked:checked ~ .option-2 .dot::before,
+#option-3:checked:checked ~ .option-3 .dot::before,
+#option-4:checked:checked ~ .option-4 .dot::before 
+{
+    opacity: 1;
+    transform: scale(1);
+}
+.wrapper .option span{
+    font-size: 20px;
+    color: #1B1B22;
+}
+#option-1:checked:checked ~ .option-1 span,
+#option-2:checked:checked ~ .option-2 span,
+#option-3:checked:checked ~ .option-3 span,
+#option-4:checked:checked ~ .option-4 span
+{
+    color: #fff;
+}
