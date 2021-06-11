@@ -1,7 +1,7 @@
 # Form_PHP-3
 Meu segundo bimestre trabalhando com PHP, esse arquivo é a terceira lista do bimestre sobre o assunto (2ºBimestre/2021)
 <p align="center">
-<img src="assets/index.gif">
+<img src="assets/index.png">
 <p>
   
 ## Exercício 1
