@@ -13,7 +13,7 @@ No PHP: O programa recebe o nome do usuário, o mesmo deve apertar "confirmar" p
 ## Exercício 2
 No PHP: O programa recebe o nome e senha do usuário, o mesmo deve apertar "login" para validar os dados. Os dados são enviados para o arquivo de checagem, se o usuário for "automacao" e a senha ser "turma1au" ele é redirecionado para uma página de iniciação onde contém a mensagem "Seja bem vindo ao sistema integrado", caso contrário o usuário não conseguirá fazer login.
 <p align="center">
-<img src="assets/img/ex2png">
+<img src="assets/img/ex2.png">
 <p>
   
 ## Exercício 3
